@@ -22,7 +22,8 @@ This is an API to help organize animals in a shelter.
 - Clone repository.
 - Open code in your preferred code editor
 - Run <code>dotnet ef migrations update</code> to create a local instance of the database.
-- Create an appsettings.json file in the/AnimalShelter directory, and input the code { "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=anastasia_han;uid=root;pwd=[YOUR-PASSWORD];" } }
+- Create an appsettings.json file in the/AnimalShelter directory, and input the code 
+<code> { "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=anastasia_han;uid=root;pwd=[YOUR-PASSWORD];" } } </code>
 - Make sure to replace 'YOUR-PASSWORD' with your MySQL Workbench password.
 - Run <code>dotnet build</code>
 - Run <code>dotnet run</code>
