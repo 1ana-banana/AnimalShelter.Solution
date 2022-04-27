@@ -27,6 +27,40 @@ This is an API to help organize animals in a shelter.
 - Run "dotnet build"
 - Run "dotnet run"
 
+## API Documentation
+API endpoints can be used in Postman or on your preferred brower. Once the API is running you can also go to <code>[Your-server-address]/swagger</code>.  
+* Example: <code>http://localhost:5001/swagger</code>
+
+No authentication is needed to use CRUD functionalities.
+
+### Endpoints
+Base URL: http://localhoust:5001
+
+HTTP Request structure
+```
+GET /api/Animals
+POST /api/Animals
+GET /api/Animals/{id}
+PUT /api/Animals/{id}
+DELETE /api/Animals/{id}
+```
+
+Example query
+```
+https://localhost:5001/api/animals/1
+```
+
+Example Response
+```
+{
+  "animalId": 1,
+  "name": "Nyangs",
+  "species": "Cat",
+  "age": 3,
+  "gender": "Male",
+}
+```
+
 ## Known Bugs
 
 - N/A
